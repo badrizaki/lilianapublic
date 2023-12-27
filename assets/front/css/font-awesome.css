@@ -631,6 +631,10 @@
 .fa-facebook:before {
   content: "\f09a";
 }
+.fa-tiktok-f:before,
+.fa-tiktok:before {
+  content: "\f09a";
+}
 .fa-github:before {
   content: "\f09b";
 }
