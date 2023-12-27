@@ -1,0 +1,15 @@
+h1 {
+    font-size: 2rem;
+}
+
+#program {
+    margin-top: 50px;
+}
+
+#program .item {
+    margin-bottom: 30px;
+}
+
+#program .thumbnail {
+    width: 100% !important;
+}

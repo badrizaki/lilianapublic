@@ -1,0 +1,97 @@
+#section-1 {
+	height: calc(100vh + 150px);
+	background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+	overflow: hidden;
+}
+#moon { position: absolute !important; width: 250px; margin-top: 5%; right: 10%; }
+#starsImage { position: absolute; }
+/*#stars { position: absolute !important; margin-top: 7%; left: 0; right: 0; z-index: 5; margin-left: auto; margin-right: auto; }*/
+#meteor-1 { position: absolute !important; width: 200px; margin-top: 7%; left: 0; right: 0; z-index: 5; margin-left: auto; margin-right: auto; animation: rotation 100s infinite linear; }
+#meteor-2 { position: absolute !important; width: 170px; margin-top: 5%; left: 15%; z-index: 5; animation: rotation 100s infinite linear;}
+#meteor-3 { position: absolute !important; width: 150px; margin-top: 30%; right: 39%; z-index: 5; animation: rotation 100s infinite linear;}
+#meteor-4 { position: absolute !important; width: 170px; margin-top: 20%; right: 0%; z-index: 5; animation: rotation 100s infinite linear;}
+#meteor-5 { position: absolute !important; width: 190px; margin-top: 29%; left: 5%; z-index: 5; animation: rotation 100s infinite linear;}
+#meteor-6 { position: absolute !important; width: 200px; margin-top: 30%; right: 10%; z-index: 5; animation: rotation 100s infinite linear;}
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+h1 { margin: 0; padding: 0; }
+#title {
+	position: absolute;
+	/*top: 45%;*/
+	margin-top:230px;
+	left: 0;
+	right: 0;
+	color: #FFF;
+	text-align: center;
+	font-family: "lato", sans-serif;
+	font-weight: 300;
+	font-size: 50px;
+	letter-spacing: 10px;
+	/*margin-top: -60px;*/
+	padding-left: 10px;
+	z-index: 9;
+}
+#title span {
+	background: -webkit-linear-gradient(white, #38495a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#title div { margin-bottom: 20px; }
+
+.units > :last-child {
+	transform: rotatex(180deg) translatey(15px); 
+	mask-image: linear-gradient(transparent 50%, white 90%);
+	line-height: 78px;
+	color: rgba(255, 255, 255, 0.1);
+}
+
+/*#cloudcenter { position: absolute; bottom: -400px; left: 0; right: 0; z-index: 5; width: 70%; margin: auto; transform: scale(-1, -1);}
+#cloudleft { position: absolute; bottom: -350px; left: 0; z-index: 5; transform: scale(-1, -1); }
+#cloudright { position: absolute; bottom: -350px; right: 0; z-index: 5; transform: scale(1, -1);}
+#forest-1 { bottom: 0; }*/
+
+#meteoridbottom { 
+   position: absolute;
+   z-index: 0;
+   bottom: -150px;
+   width: 100%;
+}
+#mountain1 {
+   position: absolute;
+   z-index: 10;
+   bottom: -100px;
+   width: 100%;
+}
+#mountain2 {
+   position: absolute;
+   z-index: 9;
+   bottom: 0%;
+   width: 100%;
+}
+#mountain3 {
+   position: absolute;
+   z-index: 8;
+   bottom: 0%;
+   width: auto;
+}
+#mountain4 {
+   position: absolute;
+   z-index: 7;
+   bottom: 0;
+   width: auto;
+}
+#mountain5 {
+   position: absolute;
+   z-index: 6;
+   bottom: 0;
+   width: 80%;
+   right: 0;
+}
