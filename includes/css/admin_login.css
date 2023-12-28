@@ -1,0 +1,106 @@
+body {
+	color: #666;
+	padding: 0;
+	margin: 0;
+	background-color: #f2f2f2;
+}
+.wrapper {
+	position: relative;
+	width: 400px;
+	padding-bottom: 15px;
+	margin: 0 auto;
+	margin-top: 5em;
+	overflow: hidden;
+	border: 5px solid #999;
+	background-color: #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px
+}
+#login {
+	background: #fff url("../../assets/images/logo.png") 20px 30px no-repeat;
+	/* background: #fff url("../../assets/images/logo-only.png") 20px 30px no-repeat; */
+	padding: 15px 15px 0 15px;
+	font: normal .8em Arial;
+	overflow: auto;
+	background-size: 215px;
+	background-position: 0px 15px;
+}
+#login h3 {
+	margin: 0 0 20px 0;
+	color: #999;
+	font: bold 1.5em Arial;
+	text-align: center;
+}
+.login-form {
+	margin: 10px 0 0 0;
+	padding: 0;
+	text-align: left;
+	float: right;
+	width: 160px;
+}
+.login-form form {
+	margin: 0 0 0 0;
+	padding: 0;
+	padding: 12px 10px 10px 10px;
+	background: #2C3685;
+	background: -webkit-linear-gradient(to right, #2C3685 0%, #039652 100%);
+	background: -moz-linear-gradient(to right, #2C3685 0%, #039652 100%);
+	background: linear-gradient(to right, #2C3685 0%, #039652 100%);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px
+
+}
+.login-text {
+	margin: 65px 0 0 5px;
+	padding: 0 0 0 0px;
+	text-align: left;
+	font: normal .8em Verdana;
+	color: #666;
+	float: left;
+	width: 210px;
+}
+.inputlabel {
+	font: bold .9em verdana;
+	text-align: left;
+	color: #fff;
+}
+.inputbox {
+	width: 125px;
+	margin: 2px 0 1em 0;
+	border: 1px solid #ccc;
+	font: bold .9em Arial;
+	padding: 2px;
+	color: #666;
+}
+.button {
+	font: bold .9em Verdana;
+	cursor: pointer;
+	padding: 2px 5px;
+	color: #555;
+}
+.clr {
+	font-size: .1em;
+	height: 1px;
+	clear: both;
+}
+.cright {
+	font: normal .7em Tahoma;
+	text-align: center;
+}
+.msg {
+	position: absolute;
+	bottom: 15px;
+	width: 170px;
+	font: normal .7em Verdana, Arial;
+	color: #fff;
+	padding: 5px 15px;
+	text-align: center;
+	background: red;
+	opacity: .7;
+}
+.msg p {
+	padding: 0;
+	margin: 0;
+}

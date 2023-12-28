@@ -2,14 +2,41 @@ h1 {
     font-size: 2rem;
 }
 
-#program {
+#program,
+#news {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #program .item {
     margin-bottom: 30px;
 }
 
-#program .thumbnail {
+#program .thumbnail,
+#news .thumbnail {
     width: 100% !important;
+}
+
+.program-item-list .container-thumb,
+.news-item-list .container-thumb {
+    width: 95px;
+    margin-right: 10px;
+}
+
+.program-item-list img,
+.news-item-list img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.program-item-list .program-title a,
+.news-item-list .news-title a {
+    color: #990000;
+}
+
+.program-item-list .program-title a:hover,
+.news-item-list .news-title a:hover {
+    color: #ffcc29;
 }
