@@ -1408,7 +1408,7 @@ news
 
 .news-title h2 a {
   font-family: "Poppins SemiBold", Sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   color: #990000;
   transition: color 200ms ease-in-out;
 }
@@ -1417,9 +1417,12 @@ news
   color: #333333;
   transition: color 200ms ease-in-out;
 }
+h5.news-title {
+  font-size: 18px;
+}
 
 .news-short-content {
-  margin: 20px 0px;
+  margin: 15px 0px;
 }
 
 .news-short-content p {}
